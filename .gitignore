@@ -1,0 +1,3 @@
+echo ".terraform/"
+echo "*.tfstate"
+echo "*.tfstate.backup"
