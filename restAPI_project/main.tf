@@ -1,3 +1,7 @@
+provider "aws" {
+  region = "sa-east-1"
+}
+
 module "networking" {
   source             = "./networking"
   vpc_id             = "vpc-0ed11de6c1a5d0d65"
